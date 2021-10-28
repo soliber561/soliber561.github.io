@@ -86,7 +86,7 @@ function number_day(m,d)
         }	
         numcount=numcount+d;
     } 
-    document.write('<div align="center">'+"第"+numcount+"天"+'</div>');
+    //document.write('<div align="center">'+"第"+numcount+"天"+'</div>');
 }
 
 //计算第几周
@@ -120,7 +120,7 @@ function main()
 {
     today();
     // leap();
-    //number_day(month,day);
+    number_day(month,day);
     num_week(numcount);
     whatday(year,month,day);
 }
