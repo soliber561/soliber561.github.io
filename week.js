@@ -120,7 +120,7 @@ function main()
 {
     today();
     // leap();
-    number_day(month,day);
+    //number_day(month,day);
     num_week(numcount);
     whatday(year,month,day);
 }
